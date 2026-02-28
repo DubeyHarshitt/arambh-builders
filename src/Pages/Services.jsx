@@ -105,7 +105,6 @@ const Services = () => {
 
   return (
     <>
-      <Navbar />
       <section
         id="services"
         className="py-24 bg-[#fcfcfd] dark:bg-[#0a1120] transition-colors duration-500"
@@ -203,7 +202,6 @@ const Services = () => {
           </div>
         </div>
       </section>
-      <Footer />
     </>
   );
 };

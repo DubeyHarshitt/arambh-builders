@@ -143,7 +143,6 @@ const Property = () => {
 
   return (
     <>
-      <Navbar />
       <main className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-16 bg-[#f9fafb] dark:bg-[#0f172a] transition-colors duration-300">
         <div className="mb-12 md:mt-10 mt-5">
           <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 dark:text-white mb-4 tracking-tight">
@@ -266,7 +265,7 @@ const Property = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

@@ -58,7 +58,6 @@ const Blog = () => {
 
   return (
     <>
-      <Navbar />
       <div className="bg-[#fcfcfd] dark:bg-[#0f172a] transition-colors duration-300">
         <main className="container mx-auto px-4 md:px-8 py-16">
           {/* Page Header */}
@@ -207,7 +206,7 @@ const Blog = () => {
           </div>
         </section>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

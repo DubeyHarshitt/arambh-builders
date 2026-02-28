@@ -38,8 +38,6 @@ const properties = [
 const Home = () => {
   return (
     <div className="bg-white dark:bg-[#0f172a] transition-colors duration-500">
-      <Navbar />
-      
       <main className="overflow-x-hidden">
         {/* Hero Section */}
         <section className="relative min-h-[90vh] md:h-screen flex items-center justify-center px-4">
@@ -150,7 +148,7 @@ const Home = () => {
         </section>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

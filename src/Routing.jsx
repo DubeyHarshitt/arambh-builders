@@ -8,15 +8,17 @@ import Blog from "./Pages/Blog";
 
 const Routing = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-      <Route path="/property" element={<Property/>} />
-      <Route path="/services" element={<Services/>} />
-      <Route path="/contact" element={<Contact />} />
-     <Route path="/blog" element={<Blog />} />
-    </Routes>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/property" element={<Property />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </>
+  );
+};
 
-export default Routing
+export default Routing;

@@ -21,7 +21,6 @@ const Contact = () => {
 
   return (
     <>
-    <Navbar/>
     <div className="bg-[#F8FAFC] dark:bg-[#0F172A] transition-colors duration-500">
       <main className="py-24 sm:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -167,7 +166,7 @@ const Contact = () => {
         </div>
       </main>
     </div>
-    <Footer/>
+    {/* <Footer/> */}
     </>
   );
 };
